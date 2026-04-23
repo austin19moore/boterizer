@@ -28,6 +28,8 @@
    python train_model.py
    ```
 
+   > The model will get exported to ./output_gguf in the specified quantization
+
 8. **Set up a Discord bot** and obtain the API key: [Discord Developer Portal](https://discord.com/developers/applications)
 
 9. **Run the Discord bot** (included):
