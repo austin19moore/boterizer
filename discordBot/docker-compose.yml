@@ -1,0 +1,11 @@
+services:
+  bot:
+    image: discord-bot
+    environment:
+      DISCORD_TOKEN: ""
+      MODEL_NAME: ""
+      USERNAME: ""
+      MODEL_API_URL: ""
+    build: ./
+    ports:
+      - "8070:8070"
